@@ -10,6 +10,13 @@ body
 {
 	background: #121113;
 }
+header{
+	z-index: 999999999;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
 section
 {
 	position: relative;
@@ -37,7 +44,7 @@ section.content
 }
 .content2{
 	position: absolute;
-	z-index: 9999;
+	z-index: 999;
 	top: 0;
 	left: 0;
 	background: transparent;
