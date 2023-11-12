@@ -17,6 +17,17 @@ header{
 	left: 0;
 	width: 100%;
 }
+a{
+	text-decoration: none;
+	color: #ffcc00;
+	margin-left: 15px;
+	margin-top: 30px;
+}
+a:hover{
+	text-decoration: #da1717;
+	color: #e9e1e1;
+	margin-left: 20px;
+}
 section
 {
 	position: relative;
