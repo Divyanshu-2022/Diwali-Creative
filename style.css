@@ -122,3 +122,9 @@ section.content img
 		font-size: 1.2em;
 	}
 }
+
+
+canvas {
+	cursor: crosshair;
+	display: block;
+}
