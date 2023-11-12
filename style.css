@@ -9,7 +9,6 @@
 body
 {
 	background: #121113;
-	opacity: 70%;
 }
 section
 {
@@ -36,7 +35,17 @@ section.content
 	text-align: center;
 	flex-wrap: wrap;
 }
-
+.content2{
+	position: absolute;
+	z-index: 9999;
+	top: 0;
+	left: 0;
+	background: transparent;
+	text-align: center;
+	color: white;
+	-webkit-text-stroke: 1px #ffffff;
+	color: #daa52d;
+}
 section.content h2
 {
 	-webkit-text-stroke: 1px #ffffff;
