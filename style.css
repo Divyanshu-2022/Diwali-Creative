@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+	scroll-behavior: smooth;
+}
+body
+{
+	background: #121113;
+}
+section
+{
+	position: relative;
+	width: 100%;
+	height: 100vh;
+}
+.fireworks
+{
+	position: fixed;
+	z-index: -1;
+	opacity: 0.8;
+}
+section.content
+{
+	z-index: 1;
+	color: #ffffff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	flex-wrap: wrap;
+}
+
+section.content h2
+{
+	-webkit-text-stroke: 1px #ffffff;
+	color: transparent;
+	font-size: 8em;
+	line-height: 0.9em;
+}
+section.content h2 c
+{
+	color: #da1717;
+	-webkit-text-stroke: 0 #fff;
+}
+section.content h2 span
+{
+	position: relative;
+	background: #27d452;
+	font-size: 0.2em;
+	display: inline-block;
+	color: #e9e1e1;
+	padding: 0 10px;
+	top: -30px;
+	text-transform: uppercase;
+	font-weight: 700;
+	line-height: 1.5em;
+	-webkit-text-stroke: 0px #fff;
+}
+::-webkit-scrollbar
+{
+	width: 0;
+}
+section.content p{
+	position: absolute;
+	bottom: 20px;
+	-webkit-text-stroke: 1px #daa520;
+	color:red;
+	font-size: 2em;
+}
+section.content img
+{
+	max-width: 300px;
+    opacity: 0.5;
+    mix-blend-mode: overlay;
+}
+@media   (max-width:760px) {
+	section .content{
+		width: 100%;
+	}
+	section.content h2 {
+		-webkit-text-stroke: 1px #ffffff;
+		color: transparent;
+		font-size: 2em;
+		line-height: 0.9em;
+		margin-top: 5px;
+	}
+	section.content2{
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+	section.content2 h2{
+		position: relative;
+		-webkit-text-stroke: 1px #ffffff;
+		color: transparent;
+		font-size: 2em;
+		line-height: 0.9em;
+		margin-top: 15px;
+		text-align: center;
+	}
+	section .content2 span{
+		color: #27d452;
+	}
+	section.content h2 span {
+		position: relative;
+		top: 40px;
+		height: auto;
+		text-align: justify;
+		width: 100%;
+		font-size: 20px;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	section.content p{
+		position: absolute;
+		bottom: 20px;
+		-webkit-text-stroke: 1px #ffffff;
+	    color: transparent;
+		font-size: 1.2em;
+	}
+}
